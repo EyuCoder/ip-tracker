@@ -7,7 +7,12 @@ import json
 
 base_url = 'https://geo.leadboxer.com/GeoIpEngine/'
 
-ip = '196.188.224.2'
+parser = argparse.ArgumentParser()
+parser.add_argument ("-t", dest='target', help= "target's ip-address", type=str, required=False )
+
+args = parser.parse_args()
+
+ip = args.target if args.target else ''
 
 try:
     response = requests.get(base_url + ip + '?jsonp')
