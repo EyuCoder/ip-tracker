@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# made by https://github.com/EyuCoder
 import argparse
 import requests
 import json
