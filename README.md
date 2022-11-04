@@ -1,5 +1,9 @@
 # ƖꝒ ƬⱤ𐤠ƇƘƸⱤ
 
+## install the packages
+```
+pip install -r requirements.txt
+```
 
 ## track taget ip address:
 ```
